@@ -2,13 +2,16 @@
 <img src="https://i.imgur.com/Ua7udoS.png" alt="Traffic Examination"/>
 </p>
 
-<h1>Network Security Groups (NSGs) and Inspecting Traffic Between Azure Virtual Machines</h1>
+
+![wireshark-1](https://github.com/techwithterrence/azure-network-protocols/assets/174138674/bfbfbf05-8ed7-4eff-8332-b7a38ac6361c)
+
+
+
+
+<h1>Wireshark, Network Security Groups (NSGs) and Inspecting Traffic Between Azure Virtual Machines</h1>
 In this tutorial, we observe various network traffic to and from Azure Virtual Machines with Wireshark as well as experiment with Network Security Groups. <br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: Azure Virtual Machines, Wireshark, and Network Security Groups](https://www.youtube.com)
 
 <h2>Environments and Technologies Used</h2>
 
@@ -23,14 +26,13 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Windows 10 (21H2)
 - Ubuntu Server 20.04
 
-<h2>High-Level Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
 
-<h2>Actions and Observations</h2>
+![Lets-Get-Started-2-1-1024x480](https://github.com/techwithterrence/azure-network-protocols/assets/174138674/3be048a1-0dbc-4c7d-95ff-0ab098d5f0bf)
+
+
+
+<h2>Follow My Steps Below!</h2>
 
 
 <h2>Part 1 (Create our Resources)</h2>
@@ -147,7 +149,7 @@ d.	Back in the Windows 10 VM, observe the ICMP traffic in WireShark and the comm
 
 e.	Stop the ping activity
 
-<h2>Part 2 (Observe SSH Traffic)</h2>
+<h2>Part 3 (Observe SSH Traffic)</h2>
 
 11.	Back in Wireshark, filter for SSH traffic only
 
@@ -190,7 +192,7 @@ a.	Observe the DHCP traffic appearing in WireShark
 ![image](https://github.com/techwithterrence/azure-network-protocols/assets/174138674/34c2b279-0e2d-47e8-b8c3-1ae751ef3cd4)
 
 
-Part 2 (Observe DNS Traffic)</h2>
+Part 4 (Observe DNS Traffic)</h2>
 
 15.	Back in Wireshark, filter for DNS traffic only
 
@@ -210,7 +212,7 @@ a.	Observe the DNS traffic being show in WireShark
 ![image](https://github.com/techwithterrence/azure-network-protocols/assets/174138674/faf77ec3-169e-4fe9-92dd-f90b3dbd62f5)
 
 
-<h2>Part 2 (Observe RDP Traffic)</h2>
+<h2>Part 5 (Observe RDP Traffic)</h2>
 
 17.	Back in Wireshark, filter for RDP traffic only (tcp.port == 3389)
 
