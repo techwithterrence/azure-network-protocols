@@ -40,17 +40,33 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 2.	Create a Windows 10 Virtual Machine (VM)
 a.	While creating the VM, select the previously created Resource Group
 b.	While creating the VM, allow it to create a new Virtual Network (Vnet) and Subnet
+![image](https://github.com/techwithterrence/azure-network-protocols/assets/174138674/38ea4224-8f99-4d98-a776-cc364dafdd36)
 
 3.	Create a Linux (Ubuntu) VM
 a.	While create the VM, select the previously created Resource Group and Vnet
 
 4.	Observe Your Virtual Network within Network Watcher
 
+
+![image](https://github.com/techwithterrence/azure-network-protocols/assets/174138674/83098675-abfc-4914-a0dc-b01bef720873)
+
+
 <h2>Part 2 (Observe ICMP Traffic)</h2>
 
 5.	Use Remote Desktop to connect to your Windows 10 Virtual Machine
 
+![image](https://github.com/techwithterrence/azure-network-protocols/assets/174138674/c590dd64-49c7-4b15-8c45-70765ddad49a)
+
+
 6.	Within your Windows 10 Virtual Machine, Install Wireshark
+
+![image](https://github.com/techwithterrence/azure-network-protocols/assets/174138674/856e98f3-e029-4077-ac95-89ff7fac1f71)
+
+
+
+![image](https://github.com/techwithterrence/azure-network-protocols/assets/174138674/a0174eb2-928d-459d-afed-08055aa6e40c)
+
+
 
 7.	Open Wireshark and filter for ICMP traffic only
 
