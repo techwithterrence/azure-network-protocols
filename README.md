@@ -8,7 +8,7 @@
 
 
 
-<h1>Wireshark, Firewalls|Network Security Groups (NSGs) and Inspecting Traffic Between Azure Virtual Machines</h1>
+<h1> PROJECT SUMMARY - Wireshark, Firewalls|Network Security Groups (NSGs) and Inspecting Traffic Between Azure Virtual Machines</h1>
 In this tutorial, we observe various network traffic to and from Azure Virtual Machines with Wireshark as well as experiment with Network Security Groups
 We will also take a look at some of the protocols that are used and can bve viewed frm Wireshark. <br />
 
